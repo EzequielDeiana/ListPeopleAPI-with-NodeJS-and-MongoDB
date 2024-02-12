@@ -1,0 +1,21 @@
+{
+  "name": "mongodbatlas",
+  "version": "1.0.0",
+  "description": "api rest with node, mongodb atlas and express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Ezequiel Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
